@@ -1,0 +1,109 @@
+body {
+  background: var(--color-bluebold);
+  text-decoration: none;
+}
+
+.card {
+  max-width: 56.25rem;
+  margin: 4.375rem auto;
+  background-color: var(--color-black);
+  border-radius: 0.938rem;
+  border: 0.188rem solid var(--color-white);
+}
+
+.erronumber {
+  margin: 1.875rem auto;
+  text-align: center;
+}
+
+.erronumber span {
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.6rem;
+  border: 0.188rem solid var(--color-bluebold);
+  border-radius: 50%;
+  color: var(--color-white);
+}
+
+.main {
+  background-color: var(--color-bluebold);
+  border-radius: 0.938rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto 1.875rem;
+  padding: 2.5rem 1rem;
+}
+.img__card{
+  margin: 0.5rem auto;
+}
+.img__card img {
+  height: 15.625rem;
+  padding: 0.25rem;
+  border: 0.125rem solid var(--color-black);
+  border-radius: 0.938rem;
+}
+
+.card__info {
+  border-left: 0.125rem solid var(--color-black);
+  padding: 0 0.625rem 0 2.5rem;
+}
+
+.card__info p {
+  margin: 2.5rem auto;
+  text-decoration: none;
+  line-height: 1.625rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--color-black);
+}
+.card__about {
+  margin: 1.875rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card__about p {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 0.313rem 1.25rem;
+}
+
+.card__about p:first-child{
+  color: var(--color-white);
+}
+
+.card__about p:nth-child(2) {
+  color: var(--color-black);
+
+  background-color: var(--color-bluebold);
+  border-radius: 1.25rem;
+}
+
+
+
+@media (max-width: 58.438rem){
+  .card__info{
+    margin-left: 1.5rem;
+    border-left: 0.125rem solid var(--color-black);
+  }
+}
+
+@media (max-width: 43rem){
+
+  .main{
+    /* grid-template-columns: 1fr; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .card__info{
+    border-left: none;
+    margin-left: 0;
+    margin-top: 1rem;
+    border-top: 0.125rem solid var(--color-black);
+  }
+}
