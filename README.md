@@ -22,11 +22,16 @@ ___
 
 O projeto de Controle Escolar é uma plataforma web voltada para o gerenciamentos de um sistema de ensino a distância e presencial.Esse projeto é composto por uma série de desafios (4-1 ao 4-7) do módulo de Controle de Academia do **Bootcamp LaunchBase da Rocketseat.**
 Nesses desafios praticamos os conceitos básicos da criação de um sistema de cadastro, atualização, remoção e listagem em conjunto com o uso dos verbos HTTP, todos esses foram novos conhecimentos adquiridos nesse módulo de Controle de Academia. 
-* Página Inicial dos Professores e dos Alunos:
+* Página Inicial dos Professores:
  
-  <img src="https://i.imgur.com/OAmNibE.png" width="400"> <img src="https://i.imgur.com/LIrzM3l.png" width="400">
+  <img src="https://i.imgur.com/OAmNibE.png" width="800"> 
+
+* Página Inicial dos Alunos
+  <img src="https://i.imgur.com/LIrzM3l.png" width="800">
+
 * Versão Mobile dos Professores:
-  <img src="https://i.imgur.com/9haChJk.png" width="300">
+ 
+  <img src="https://i.imgur.com/FN1X5mD.png" width="300">
 
 ___
 ## :interrobang: Motivo
@@ -36,9 +41,11 @@ Nesse projeto, temos que praticar os conceitos de cadastro de dados via método 
 Não obstante, utilizamos aplicações como browser-sync e npm-run-all para a atualização e sincronização do código na web simultaneamente enquanto estiver atualizando o código , adicionando mais alguma funcionalidade ou alterando o visual, além de executarem todas ferramentas em conjunto permitindo que a partir do npm start o navegador abra automaticamente com tudo sincronizado.
 
 * Página de visualização do Professor:
-  <img src="https://i.imgur.com/DyOkFYk.png" width="800">
+ 
+  <img src="https://i.imgur.com/DyOkFYk.png" width="800"> 
 
 * Página de visualização do Aluno:
+
   <img src="https://i.imgur.com/JyjH5Mf.png" width="800">
 
 * Versão Mobile do Professor e do Aluno:
@@ -50,6 +57,18 @@ ___
 ## :seedling: Requisitos Mínimos
 
 Node.js, Nunjucks, Express, Browser-sync, npm-run-all e method-override.
+
+* Página de Cadastro do Professor:
+  <img src="https://i.imgur.com/l7s8CEh.png" width="800">
+
+* Página de Cadastro do Aluno:
+  <img src="https://i.imgur.com/IbhxKGc.png" width="800">
+
+* Versão Mobile do Cadastro do Professor e do Aluno:
+ 
+  <img src="https://i.imgur.com/U8AylUh.png" width="300">___________<img src="https://i.imgur.com/o9LHgLK.png" width="300">
+
+  <img src="https://i.imgur.com/YgpyPkx.png" width="300">___________<img src="https://i.imgur.com/oMlo0UD.png" width="305">
 ___
 ## :rocket: Tecnologias Utilizadas 
 
@@ -60,8 +79,22 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [Nunjucks](https://mozilla.github.io/nunjucks/)
 
+* Página de Edição do Professor:
+  <img src="https://i.imgur.com/SmZzxT0.png" width="800">
+
+* Página de Edição do Aluno:
+  <img src="https://i.imgur.com/UsblpJC.png" width="800">
+
+* Versão Mobile do Edição do Professor e do Aluno:
+ 
+  <img src="https://i.imgur.com/mFbWDui.png" width="300">___________<img src="https://i.imgur.com/LHlihpM.png" width="300" height="625">
+
+  <img src="https://i.imgur.com/ogPKYkf.png" width="300">___________<img src="https://i.imgur.com/Xo6h4Mp.png" width="300" height="628">
 ___
 ## :package: Como baixar e executar o projeto
+
+  - Antes de tudo, é necessário a instalação do node.js, ela é feita a partir do download na página oficial do node.js que está linkado no tópico anterior, ou por aqui: 
+    * [Node.js](https://nodejs.org/en/)
 
   - Clonar o projeto:
 ```bash
