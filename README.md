@@ -26,7 +26,7 @@ Nesses desafios praticamos os conceitos básicos da criação de um sistema de c
  
   <img src="https://i.imgur.com/OAmNibE.png" width="400"> <img src="https://i.imgur.com/LIrzM3l.png" width="400">
 * Versão Mobile dos Professores:
-  <img src="https://i.imgur.com/9haChJk.png" width="300">
+[Imgur](https://i.imgur.com/SmZzxT0.png)
 
 ___
 ## :interrobang: Motivo
